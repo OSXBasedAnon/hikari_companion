@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Companion - Hikari (Portable Edition)</title>
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2d.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .setup-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .setup-content {
+            background: white;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .setup-content h2 {
+            margin-bottom: 20px;
+            color: #1e3c72;
+        }
+
+        .setup-content input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .setup-content button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #1e3c72;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .setup-content button:hover {
+            background: #2a5298;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #canvas-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 450px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        #avatar-canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .user-message {
+            background: rgba(59, 130, 246, 0.5);
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .ai-message {
+            background: rgba(156, 163, 175, 0.3);
+            margin-right: auto;
+        }
+
+        .input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        #user-input {
+            flex: 1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 16px;
+            outline: none;
+        }
+
+        #user-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        #send-button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(59, 130, 246, 0.8);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #send-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .api-info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .api-info a {
+            color: #1e3c72;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="setup-modal" id="setup-modal">
+        <div class="setup-content">
+            <h2>Welcome to AI Companion! 🎉</h2>
+            <p style="margin-bottom: 20px;">To get started, please enter your API keys. These are stored locally in your browser and never sent anywhere else.</p>
+            
+            <label for="gemini-key">Gemini API Key:</label>
+            <input type="password" id="gemini-key" placeholder="AIzaSy...">
+            <div class="api-info">
+                Get your free key at: <a href="https://makersuite.google.com/app/apikey" target="_blank">Google AI Studio</a>
+            </div>
+            
+            <label for="elevenlabs-key" style="margin-top: 15px; display: block;">ElevenLabs API Key:</label>
+            <input type="password" id="elevenlabs-key" placeholder="sk_...">
+            <div class="api-info">
+                Get your key at: <a href="https://elevenlabs.io/api" target="_blank">ElevenLabs API</a>
+            </div>
+            
+            <button onclick="saveKeys()">Start AI Companion</button>
+            
+            <p style="margin-top: 20px; font-size: 12px; color: #666;">
+                💡 Tip: Save this file to your computer and open it anytime to use your AI companion!
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="main-container">
+        <h1>AI Companion - Hikari</h1>
+        
+        <div id="canvas-container">
+            <canvas id="avatar-canvas"></canvas>
+        </div>
+
+        <div class="chat-container">
+            <div class="status" id="status">Loading Model...</div>
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Type your message here..."
+                    autocomplete="off"
+                >
+                <button id="send-button" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check for stored API keys
+        window.onload = function() {
+            const keys = localStorage.getItem('ai_companion_keys');
+            if (keys) {
+                const parsed = JSON.parse(keys);
+                CONFIG.GEMINI_API_KEY = parsed.gemini;
+                CONFIG.ELEVENLABS_API_KEY = parsed.elevenlabs;
+                document.getElementById('setup-modal').style.display = 'none';
+                document.getElementById('main-container').style.display = 'flex';
+                init();
+            }
+        };
+
+        // Save API keys
+        function saveKeys() {
+            const geminiKey = document.getElementById('gemini-key').value.trim();
+            const elevenLabsKey = document.getElementById('elevenlabs-key').value.trim();
+            
+            if (!geminiKey || !elevenLabsKey) {
+                alert('Please enter both API keys to continue.');
+                return;
+            }
+            
+            localStorage.setItem('ai_companion_keys', JSON.stringify({
+                gemini: geminiKey,
+                elevenlabs: elevenLabsKey
+            }));
+            
+            CONFIG.GEMINI_API_KEY = geminiKey;
+            CONFIG.ELEVENLABS_API_KEY = elevenLabsKey;
+            
+            document.getElementById('setup-modal').style.display = 'none';
+            document.getElementById('main-container').style.display = 'flex';
+            init();
+        }
+
+        // Configuration
+        const CONFIG = {
+            GEMINI_API_KEY: '', // Set via user input
+            ELEVENLABS_API_KEY: '', // Set via user input
+            ELEVENLABS_VOICE_ID: 'MZWAeoKfUkO8NjZGN4Ry',
+            // --- The path to your VTS-compatible model's main JSON file ---
+            // --- IMPORTANT: You must run this from a local server for the browser to load these files. ---            
+            MODEL_PATH: './live2dmodels/hiyori/hiyori_pro_t10.model3.json',
+            PERSONA: {
+                name: 'Hikari',
+                personality: "I'm Hikari, your friendly AI companion! I'm cheerful, helpful, and always here to chat with you. I love learning about new things and helping people with their questions. I speak in a warm and engaging way, and I'm always excited to meet new friends!",
+                greeting: "Hi there! I'm Hikari, your AI companion. It's so nice to meet you! How are you doing today?"
+            }
+        };
+
+        let conversationHistory = [];
+        let isProcessing = false;
+        let audioContext = null;
+        let live2dModel = null; // Will hold the Live2D model reference
+
+        // Initialize
+        async function init() {
+            try {
+                // Initialize Live2D Model
+                const app = new PIXI.Application({
+                    view: document.getElementById('avatar-canvas'),
+                    autoStart: true,
+                    resizeTo: document.getElementById('canvas-container'),
+                    backgroundColor: 0x000000,
+                    backgroundAlpha: 0.0,
+                });
+
+                live2dModel = await PIXI.live2d.Live2DModel.from(CONFIG.MODEL_PATH);
+                app.stage.addChild(live2dModel);
+
+                // Scale and position the model
+                const container = document.getElementById('canvas-container');
+                live2dModel.scale.set(0.25); // Adjust scale as needed
+                live2dModel.x = container.offsetWidth / 2;
+                live2dModel.y = container.offsetHeight;
+
+                updateStatus('Ready to chat!');
+                // Send greeting
+                setTimeout(() => {
+                    addMessage(CONFIG.PERSONA.greeting, 'ai');
+                    speakText(CONFIG.PERSONA.greeting);
+                }, 500);
+
+            } catch (e) {
+                console.error('Failed to load Live2D model:', e);
+                updateStatus('Error: Failed to load model. Check path and run from a local server.');
+                addMessage('I couldn\'t load my avatar, but I\'m still here to chat!', 'ai');
+            }
+        }
+
+        // Chat functionality
+        async function sendMessage() {
+            if (isProcessing) return;
+            
+            const input = document.getElementById('user-input');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            isProcessing = true;
+            input.value = '';
+            document.getElementById('send-button').disabled = true;
+            
+            addMessage(message, 'user');
+            updateStatus('Thinking...');
+            
+            try {
+                // Call Gemini API
+                const response = await fetch(`https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${CONFIG.GEMINI_API_KEY}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        contents: [{
+                            parts: [{
+                                text: `${CONFIG.PERSONA.personality}\n\nUser: ${message}\n\nRespond as ${CONFIG.PERSONA.name}:`
+                            }]
+                        }]
+                    })
+                });
+
+                const data = await response.json();
+
+                // *** FIXED: Better error handling ***
+                if (!response.ok || !data.candidates || data.candidates.length === 0) {
+                    let errorMessage = 'An error occurred with the AI service.';
+                     if (data.error && data.error.message) {
+                        errorMessage = `API Error: ${data.error.message}`;
+                    } else if (data.promptFeedback && data.promptFeedback.blockReason) {
+                         errorMessage = `Request blocked by AI safety settings: ${data.promptFeedback.blockReason}`;
+                    }
+                    console.error('API Error:', data);
+                    addMessage(errorMessage, 'ai');
+                    updateStatus('Error');
+                    throw new Error(errorMessage);
+                }
+                
+                const aiResponse = data.candidates[0].content.parts[0].text;
+                addMessage(aiResponse, 'ai');
+                speakText(aiResponse);
+                
+            } catch (error) {
+                console.error('sendMessage Error:', error);
+                // The specific error is now handled above, this is a fallback.
+                updateStatus('Error communicating with AI.');
+            } finally {
+                isProcessing = false;
+                document.getElementById('send-button').disabled = false;
+            }
+        }
+
+        function addMessage(text, sender) {
+            const chatMessages = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender === 'user' ? 'user-message' : 'ai-message'}`;
+            messageDiv.textContent = text;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function updateStatus(text) {
+            document.getElementById('status').textContent = text;
+        }
+
+        async function speakText(text) {
+            updateStatus('Speaking...');
+            
+            try {
+                // Call ElevenLabs API
+                const response = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${CONFIG.ELEVENLABS_VOICE_ID}`, {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'audio/mpeg',
+                        'Content-Type': 'application/json',
+                        'xi-api-key': CONFIG.ELEVENLABS_API_KEY
+                    },
+                    body: JSON.stringify({
+                        text: text,
+                        model_id: 'eleven_monolingual_v1',
+                        voice_settings: {
+                            stability: 0.5,
+                            similarity_boost: 0.5
+                        }
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`ElevenLabs API returned status ${response.status}`);
+                }
+
+                const audioBlob = await response.blob();
+                const audioUrl = URL.createObjectURL(audioBlob);
+                const audio = new Audio(audioUrl);
+
+                // --- Live2D Lip Sync ---
+                let mouthParamId = 'ParamMouthOpenY'; // Standard Live2D param for mouth
+                let audioPlaying = false;
+
+                function lipSync() {
+                    if (audioPlaying && live2dModel) {
+                        // Simple lip sync logic - can be improved
+                        const intensity = Math.sin(Date.now() / 100) * 0.5 + 0.5;
+                        live2dModel.internalModel.coreModel.setParameterValueById(mouthParamId, intensity);
+                        requestAnimationFrame(lipSync);
+                    }
+                }
+
+                audio.onplay = () => {
+                    audioPlaying = true;
+                    requestAnimationFrame(lipSync);
+                };
+                
+                audio.onended = () => {
+                    audioPlaying = false;
+                    if (live2dModel) {
+                        // Close mouth
+                        live2dModel.internalModel.coreModel.setParameterValueById(mouthParamId, 0);
+                    }
+                    updateStatus('Ready to chat!');
+                    URL.revokeObjectURL(audioUrl);
+                };
+                
+                audio.play();
+                
+            } catch (error) {
+                console.error('TTS Error:', error);
+                addMessage(`I encountered an issue with my voice system. (${error.message})`, 'ai');
+                updateStatus('Ready to chat!');
+            }
+        }
+
+        // Keyboard shortcut
+        document.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault(); // prevent form submission
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>

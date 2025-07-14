@@ -1,0 +1,15 @@
+{
+	"Type": "Live2D Expression",
+	"Parameters": [
+		{
+			"Id": "ParamOutfitPajamaONOFF",
+			"Value": 1,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamOutfitBaseONOFF",
+			"Value": -1,
+			"Blend": "Add"
+		}
+	]
+}

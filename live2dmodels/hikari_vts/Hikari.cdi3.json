@@ -1,0 +1,2156 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Border6",
+			"GroupId": "ParamGroup6",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamAngry",
+			"GroupId": "ParamGroup6",
+			"Name": "Angry"
+		},
+		{
+			"Id": "ParamToggleDrop",
+			"GroupId": "ParamGroup6",
+			"Name": "Drop"
+		},
+		{
+			"Id": "ParamBlush",
+			"GroupId": "ParamGroup6",
+			"Name": "Blush"
+		},
+		{
+			"Id": "ParamDizzy",
+			"GroupId": "ParamGroup6",
+			"Name": "Dizzy"
+		},
+		{
+			"Id": "ParamHeartEyes",
+			"GroupId": "ParamGroup6",
+			"Name": "Heart Eyes"
+		},
+		{
+			"Id": "ParamSweat",
+			"GroupId": "ParamGroup6",
+			"Name": "Sweat"
+		},
+		{
+			"Id": "ParamSad",
+			"GroupId": "ParamGroup6",
+			"Name": "Sad"
+		},
+		{
+			"Id": "ParamShocked",
+			"GroupId": "ParamGroup6",
+			"Name": "Shocked"
+		},
+		{
+			"Id": "ParamFaceshadow",
+			"GroupId": "ParamGroup6",
+			"Name": "Faceshadow"
+		},
+		{
+			"Id": "ParamStarEyes",
+			"GroupId": "ParamGroup6",
+			"Name": "Star Eyes"
+		},
+		{
+			"Id": "ParamTears",
+			"GroupId": "ParamGroup6",
+			"Name": "Tears"
+		},
+		{
+			"Id": "Border1",
+			"GroupId": "ParamGroup",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamOutfitBaseONOFF",
+			"GroupId": "ParamGroup",
+			"Name": "Outfit Base"
+		},
+		{
+			"Id": "ParamMask",
+			"GroupId": "ParamGroup",
+			"Name": "Mask"
+		},
+		{
+			"Id": "ParamOutfitPajamaONOFF",
+			"GroupId": "ParamGroup",
+			"Name": "Outfit Pajama"
+		},
+		{
+			"Id": "ParamOutfitBunnyONOFF",
+			"GroupId": "ParamGroup",
+			"Name": "Outfit Bunny"
+		},
+		{
+			"Id": "OutfitNinja",
+			"GroupId": "ParamGroup",
+			"Name": "Outfit Ninja"
+		},
+		{
+			"Id": "Border2",
+			"GroupId": "ParamGroup2",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeL Open"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup2",
+			"Name": "EyeR Open"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup2",
+			"Name": "Eyeball Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup2",
+			"Name": "BrowR Y"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "ParamGroup2",
+			"Name": "BrowR Angle"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "ParamGroup2",
+			"Name": "BrowR Form"
+		},
+		{
+			"Id": "Border3",
+			"GroupId": "ParamGroup3",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpen",
+			"GroupId": "ParamGroup3",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamA",
+			"GroupId": "ParamGroup3",
+			"Name": "A"
+		},
+		{
+			"Id": "ParamO",
+			"GroupId": "ParamGroup3",
+			"Name": "O"
+		},
+		{
+			"Id": "ParamE",
+			"GroupId": "ParamGroup3",
+			"Name": "E"
+		},
+		{
+			"Id": "ParamI",
+			"GroupId": "ParamGroup3",
+			"Name": "I"
+		},
+		{
+			"Id": "ParamU",
+			"GroupId": "ParamGroup3",
+			"Name": "U"
+		},
+		{
+			"Id": "Border4",
+			"GroupId": "ParamGroup4",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup4",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup4",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup4",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "Border5",
+			"GroupId": "ParamGroup5",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup5",
+			"Name": "Body X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup5",
+			"Name": "Body Y"
+		},
+		{
+			"Id": "ParamSpiral",
+			"GroupId": "ParamGroup7",
+			"Name": "Spiral"
+		},
+		{
+			"Id": "Border7",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsBangsX1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Bangs X1"
+		},
+		{
+			"Id": "ParamPhysicsBangsX2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Bangs X2"
+		},
+		{
+			"Id": "ParamPhysicsBangsY1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Bangs Y1"
+		},
+		{
+			"Id": "ParamPhysicsBangsY2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Bangs Y2"
+		},
+		{
+			"Id": "Border11",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsBoobsX1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Boobs X1"
+		},
+		{
+			"Id": "ParamPhysicsBoobsY1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Boobs Y1"
+		},
+		{
+			"Id": "Border12",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsBodyX1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Body X1"
+		},
+		{
+			"Id": "ParamPhysicsBodyX2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Body X2"
+		},
+		{
+			"Id": "ParamPhysicsBodyY1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Body Y1"
+		},
+		{
+			"Id": "ParamPhysicsBodyY2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Body Y2"
+		},
+		{
+			"Id": "Border13",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsEyelashes",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Eyelashes"
+		},
+		{
+			"Id": "ParamPhysicsIrisX",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Iris X"
+		},
+		{
+			"Id": "ParamPhysicsIrisY",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Iris Y"
+		},
+		{
+			"Id": "Border9",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamChokerLegsX",
+			"GroupId": "ParamGroup7",
+			"Name": "ChokerLegsX"
+		},
+		{
+			"Id": "ParamChokerLegsY",
+			"GroupId": "ParamGroup7",
+			"Name": "ChokerLegsY"
+		},
+		{
+			"Id": "Border10",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsZipperX",
+			"GroupId": "ParamGroup7",
+			"Name": "Phyiscs Zipper X"
+		},
+		{
+			"Id": "ParamPhysicsZipperY",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Zipper Y"
+		},
+		{
+			"Id": "Border15",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsChokerHeartX",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Choker Heart X"
+		},
+		{
+			"Id": "ParamPhysicsChokerHeartX2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Choker Heart X2"
+		},
+		{
+			"Id": "ParamPhysicsChokerHeartY",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Choker Heart Y"
+		},
+		{
+			"Id": "ParamPhysicsChokerHeartY2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Choker Heart Y2"
+		},
+		{
+			"Id": "Border17",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsStringsX1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Strings X1"
+		},
+		{
+			"Id": "ParamPhysicsStringsX2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Strings X2"
+		},
+		{
+			"Id": "ParamPhysicsStringsY1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Strings Y1"
+		},
+		{
+			"Id": "ParamPhysicsStringsY2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Strings Y2"
+		},
+		{
+			"Id": "Border18",
+			"GroupId": "ParamGroup7",
+			"Name": "•┈••✦ ❤ ✦••┈•"
+		},
+		{
+			"Id": "ParamPhysicsPajamaX1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Pajama X1"
+		},
+		{
+			"Id": "ParamPhysicsPajamaX2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Pajama X2"
+		},
+		{
+			"Id": "ParamPhysicsPajamaY1",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Pajama Y1"
+		},
+		{
+			"Id": "ParamPhysicsPajamaY2",
+			"GroupId": "ParamGroup7",
+			"Name": "Physics Pajama Y2"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[0]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[1]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[2]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[3]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[4]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[5]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh326",
+			"GroupId": "ParamGroup9",
+			"Name": "[6]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh322",
+			"GroupId": "ParamGroup9",
+			"Name": "[7]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh322",
+			"GroupId": "ParamGroup9",
+			"Name": "[8]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[0]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[1]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[2]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[3]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[4]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[5]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[6]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[7]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh321",
+			"GroupId": "ParamGroup9",
+			"Name": "[8]图层 709R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[0]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[1]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[2]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[3]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[4]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[5]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh322",
+			"GroupId": "ParamGroup10",
+			"Name": "[6]图层 708R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[0]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[1]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[2]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[3]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[4]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[5]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh323",
+			"GroupId": "ParamGroup11",
+			"Name": "[6]图层 710R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[0]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[1]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[2]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[3]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[4]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[5]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[6]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[7]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh324",
+			"GroupId": "ParamGroup12",
+			"Name": "[8]图层 707R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[0]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[1]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[2]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[3]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[4]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[5]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[6]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[7]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh325",
+			"GroupId": "ParamGroup13",
+			"Name": "[8]图层 709 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ponytail_R2",
+			"GroupId": "ParamGroup14",
+			"Name": "R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[0]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[1]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[2]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[3]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[4]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[5]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[6]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[7]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[8]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[9]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[10]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[11]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[12]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[13]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[14]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[15]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ponytail_R1",
+			"GroupId": "ParamGroup14",
+			"Name": "[16]ponytail_R1"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh328",
+			"GroupId": "ParamGroup15",
+			"Name": "713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh328",
+			"GroupId": "ParamGroup15",
+			"Name": "713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh328",
+			"GroupId": "ParamGroup15",
+			"Name": "713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh328",
+			"GroupId": "ParamGroup15",
+			"Name": "713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh328",
+			"GroupId": "ParamGroup15",
+			"Name": "713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh327",
+			"GroupId": "ParamGroup15",
+			"Name": "[0]图层 713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh327",
+			"GroupId": "ParamGroup15",
+			"Name": "[1]图层 713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh327",
+			"GroupId": "ParamGroup15",
+			"Name": "[2]图层 713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh327",
+			"GroupId": "ParamGroup15",
+			"Name": "[3]图层 713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh327",
+			"GroupId": "ParamGroup15",
+			"Name": "[4]图层 713R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ponytail_R4",
+			"GroupId": "ParamGroup16",
+			"Name": "R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[0]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[1]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[2]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[3]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[4]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[5]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[6]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[7]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[8]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[9]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[10]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[11]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[12]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[13]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[14]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[15]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ponytail_R3",
+			"GroupId": "ParamGroup16",
+			"Name": "[16]ponytail_R3"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh331",
+			"GroupId": "ParamGroup17",
+			"Name": "708"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh331",
+			"GroupId": "ParamGroup17",
+			"Name": "708"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh331",
+			"GroupId": "ParamGroup17",
+			"Name": "708"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh331",
+			"GroupId": "ParamGroup17",
+			"Name": "708"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh331",
+			"GroupId": "ParamGroup17",
+			"Name": "708"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh329",
+			"GroupId": "ParamGroup17",
+			"Name": "[0]图层 708 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh329",
+			"GroupId": "ParamGroup17",
+			"Name": "[1]图层 708 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh329",
+			"GroupId": "ParamGroup17",
+			"Name": "[2]图层 708 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh329",
+			"GroupId": "ParamGroup17",
+			"Name": "[3]图层 708 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh329",
+			"GroupId": "ParamGroup17",
+			"Name": "[4]图层 708 拷贝R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[0]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[1]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[2]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[3]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[4]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[5]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh330",
+			"GroupId": "ParamGroup18",
+			"Name": "[6]图层 701R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ArtMesh334",
+			"GroupId": "ParamGroup19",
+			"Name": "691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_1_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[0]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_2_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[1]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_3_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[2]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_4_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[3]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_5_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[4]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_6_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[5]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_7_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[6]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_8_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[7]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_9_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[8]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_10_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[9]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_11_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[10]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_12_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[11]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_13_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[12]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_14_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[13]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_15_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[14]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_16_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[15]图层 691R"
+		},
+		{
+			"Id": "Param_Angle_Rotation_17_ArtMesh333",
+			"GroupId": "ParamGroup19",
+			"Name": "[16]图层 691R"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "Expressions"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Toggles"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Mouth"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Head"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "Body"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "Physics"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "图层 709R"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "图层 708R"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "图层 710R"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "图层 707R"
+		},
+		{
+			"Id": "ParamGroup13",
+			"GroupId": "",
+			"Name": "图层 709 拷贝R"
+		},
+		{
+			"Id": "ParamGroup14",
+			"GroupId": "",
+			"Name": "ponytail_R1"
+		},
+		{
+			"Id": "ParamGroup15",
+			"GroupId": "",
+			"Name": "图层 713R"
+		},
+		{
+			"Id": "ParamGroup16",
+			"GroupId": "",
+			"Name": "ponytail_R3"
+		},
+		{
+			"Id": "ParamGroup17",
+			"GroupId": "",
+			"Name": "图层 708 拷贝R"
+		},
+		{
+			"Id": "ParamGroup18",
+			"GroupId": "",
+			"Name": "图层 701R"
+		},
+		{
+			"Id": "ParamGroup19",
+			"GroupId": "",
+			"Name": "图层 691R"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part11",
+			"Name": "Ninja"
+		},
+		{
+			"Id": "Part8",
+			"Name": "Vtuber_v2.psd (Corresponding layer not found)"
+		},
+		{
+			"Id": "Part171",
+			"Name": "IrisMerged2.png"
+		},
+		{
+			"Id": "Part170",
+			"Name": "IrisMerged.png"
+		},
+		{
+			"Id": "Part169",
+			"Name": "Chin_Bottom.png"
+		},
+		{
+			"Id": "Part",
+			"Name": "Outfit (Ninja)"
+		},
+		{
+			"Id": "Part2",
+			"Name": "Outfit (Bunny)"
+		},
+		{
+			"Id": "Part4",
+			"Name": "Outfit Base"
+		},
+		{
+			"Id": "Part12",
+			"Name": "Ninja"
+		},
+		{
+			"Id": "Base",
+			"Name": "Base"
+		},
+		{
+			"Id": "bunny_ears",
+			"Name": "bunny_ears"
+		},
+		{
+			"Id": "shoes",
+			"Name": "shoes"
+		},
+		{
+			"Id": "sleeve",
+			"Name": "sleeve"
+		},
+		{
+			"Id": "top",
+			"Name": "top"
+		},
+		{
+			"Id": "socks",
+			"Name": "socks"
+		},
+		{
+			"Id": "sleeve_back",
+			"Name": "sleeve_back"
+		},
+		{
+			"Id": "cat_ears",
+			"Name": "cat_ears"
+		},
+		{
+			"Id": "plastic_lable",
+			"Name": "plastic_lable"
+		},
+		{
+			"Id": "jacket_front2",
+			"Name": "jacket_front"
+		},
+		{
+			"Id": "jacket_front",
+			"Name": "jacket_front"
+		},
+		{
+			"Id": "pants_layer1",
+			"Name": "pants_layer1"
+		},
+		{
+			"Id": "belt2",
+			"Name": "belt"
+		},
+		{
+			"Id": "pants",
+			"Name": "pants"
+		},
+		{
+			"Id": "zipper",
+			"Name": "zipper"
+		},
+		{
+			"Id": "shirt",
+			"Name": "shirt"
+		},
+		{
+			"Id": "top3",
+			"Name": "top"
+		},
+		{
+			"Id": "strings",
+			"Name": "strings"
+		},
+		{
+			"Id": "heart",
+			"Name": "heart"
+		},
+		{
+			"Id": "choker",
+			"Name": "choker"
+		},
+		{
+			"Id": "shoes3",
+			"Name": "shoes"
+		},
+		{
+			"Id": "socks2",
+			"Name": "socks"
+		},
+		{
+			"Id": "sleeve_bands",
+			"Name": "sleeve_bands"
+		},
+		{
+			"Id": "sleeve3",
+			"Name": "sleeve"
+		},
+		{
+			"Id": "sleeve_back3",
+			"Name": "sleeve_back"
+		},
+		{
+			"Id": "sleeve2",
+			"Name": "sleeve"
+		},
+		{
+			"Id": "sleeve_back2",
+			"Name": "sleeve_back"
+		},
+		{
+			"Id": "jacket_back",
+			"Name": "jacket_back"
+		},
+		{
+			"Id": "Part16",
+			"Name": "Skin Shadows"
+		},
+		{
+			"Id": "Part6",
+			"Name": "hair front"
+		},
+		{
+			"Id": "face",
+			"Name": "face"
+		},
+		{
+			"Id": "head",
+			"Name": "head"
+		},
+		{
+			"Id": "Part3",
+			"Name": "Outfit (Pajama)"
+		},
+		{
+			"Id": "collar",
+			"Name": "collar"
+		},
+		{
+			"Id": "belt_neck",
+			"Name": "belt_neck"
+		},
+		{
+			"Id": "body",
+			"Name": "body"
+		},
+		{
+			"Id": "ponytails",
+			"Name": "ponytails"
+		},
+		{
+			"Id": "shoe_right",
+			"Name": "shoe_right"
+		},
+		{
+			"Id": "shoe_left",
+			"Name": "shoe_left"
+		},
+		{
+			"Id": "button_right",
+			"Name": "button_right"
+		},
+		{
+			"Id": "button_left",
+			"Name": "button_left"
+		},
+		{
+			"Id": "sleeve_right",
+			"Name": "sleeve_right"
+		},
+		{
+			"Id": "sleeve_left",
+			"Name": "sleeve_left"
+		},
+		{
+			"Id": "Part10",
+			"Name": "jacket_front _right"
+		},
+		{
+			"Id": "jacket_front_left2",
+			"Name": "jacket_front_left"
+		},
+		{
+			"Id": "Part5",
+			"Name": "jacket_front _right"
+		},
+		{
+			"Id": "jacket_front_left",
+			"Name": "jacket_front_left"
+		},
+		{
+			"Id": "pants_layer1_shadow_right",
+			"Name": "pants_layer1_shadow_right"
+		},
+		{
+			"Id": "pants_layer1_shadow_left",
+			"Name": "pants_layer1_shadow_left"
+		},
+		{
+			"Id": "zipper_top",
+			"Name": "zipper_top"
+		},
+		{
+			"Id": "zipper_down",
+			"Name": "zipper_down"
+		},
+		{
+			"Id": "right2",
+			"Name": "right"
+		},
+		{
+			"Id": "left3",
+			"Name": "left"
+		},
+		{
+			"Id": "sleeve_right5",
+			"Name": "sleeve_right"
+		},
+		{
+			"Id": "sleeve_right3",
+			"Name": "sleeve_right"
+		},
+		{
+			"Id": "Part7",
+			"Name": "hair_front"
+		},
+		{
+			"Id": "hair_bangs",
+			"Name": "hair_bangs"
+		},
+		{
+			"Id": "hair_sides",
+			"Name": "hair_sides"
+		},
+		{
+			"Id": "hairtop",
+			"Name": "hairtop"
+		},
+		{
+			"Id": "buns",
+			"Name": "buns"
+		},
+		{
+			"Id": "eyebrows",
+			"Name": "eyebrows"
+		},
+		{
+			"Id": "eyes",
+			"Name": "eyes"
+		},
+		{
+			"Id": "nose",
+			"Name": "nose"
+		},
+		{
+			"Id": "mouth",
+			"Name": "mouth"
+		},
+		{
+			"Id": "innter_mouth",
+			"Name": "innter_mouth"
+		},
+		{
+			"Id": "POCKET",
+			"Name": "POCKET"
+		},
+		{
+			"Id": "BUTTON",
+			"Name": "BUTTON"
+		},
+		{
+			"Id": "hatB",
+			"Name": "hatB"
+		},
+		{
+			"Id": "belt",
+			"Name": "belt"
+		},
+		{
+			"Id": "shirtB",
+			"Name": "shirtB"
+		},
+		{
+			"Id": "sleeves",
+			"Name": "sleeves"
+		},
+		{
+			"Id": "butterfly_small",
+			"Name": "butterfly_small"
+		},
+		{
+			"Id": "dress",
+			"Name": "dress"
+		},
+		{
+			"Id": "belt_leg",
+			"Name": "belt_leg"
+		},
+		{
+			"Id": "shoes2",
+			"Name": "shoes"
+		},
+		{
+			"Id": "stockings",
+			"Name": "stockings"
+		},
+		{
+			"Id": "shoes_back",
+			"Name": "shoes_back"
+		},
+		{
+			"Id": "sleeves_back",
+			"Name": "sleeves_back"
+		},
+		{
+			"Id": "hatB_back",
+			"Name": "hatB_back"
+		},
+		{
+			"Id": "upper_body",
+			"Name": "upper_body"
+		},
+		{
+			"Id": "arms",
+			"Name": "arms"
+		},
+		{
+			"Id": "sleeve_back_right4",
+			"Name": "sleeve_back_right"
+		},
+		{
+			"Id": "Leg_choker",
+			"Name": "Leg_choker"
+		},
+		{
+			"Id": "legs",
+			"Name": "legs"
+		},
+		{
+			"Id": "ponytail_L",
+			"Name": "ponytail_L"
+		},
+		{
+			"Id": "ponytail_R",
+			"Name": "ponytail_R"
+		},
+		{
+			"Id": "zipper_yellow3",
+			"Name": "zipper_yellow"
+		},
+		{
+			"Id": "ribbon3",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "zipper_yellow4",
+			"Name": "zipper_yellow"
+		},
+		{
+			"Id": "ribbon4",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "zipper_yellow",
+			"Name": "zipper_yellow"
+		},
+		{
+			"Id": "ribbon",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "zipper_yellow2",
+			"Name": "zipper_yellow"
+		},
+		{
+			"Id": "ribbon2",
+			"Name": "ribbon"
+		},
+		{
+			"Id": "sleeve_band_right2",
+			"Name": "sleeve_band_right"
+		},
+		{
+			"Id": "sleeve_band_right",
+			"Name": "sleeve_band_right"
+		},
+		{
+			"Id": "bangs_right",
+			"Name": "bangs_right"
+		},
+		{
+			"Id": "sidehair_right",
+			"Name": "sidehair_right"
+		},
+		{
+			"Id": "Part9",
+			"Name": "sidehair_left"
+		},
+		{
+			"Id": "bun_right2",
+			"Name": "bun_right"
+		},
+		{
+			"Id": "bun_right",
+			"Name": "bun_right"
+		},
+		{
+			"Id": "eye_right2",
+			"Name": "eye_left"
+		},
+		{
+			"Id": "eye_right3",
+			"Name": "eye_left_N"
+		},
+		{
+			"Id": "eye_right",
+			"Name": "eye_right_N"
+		},
+		{
+			"Id": "eye_left",
+			"Name": "eye_left"
+		},
+		{
+			"Id": "upper_lip",
+			"Name": "upper_lip"
+		},
+		{
+			"Id": "lower_lip",
+			"Name": "lower_lip"
+		},
+		{
+			"Id": "pocket_right",
+			"Name": "pocket_right"
+		},
+		{
+			"Id": "pocket_left",
+			"Name": "pocket_left"
+		},
+		{
+			"Id": "belt_right",
+			"Name": "belt_right"
+		},
+		{
+			"Id": "belt_L",
+			"Name": "belt_L"
+		},
+		{
+			"Id": "rechts",
+			"Name": "rechts"
+		},
+		{
+			"Id": "left",
+			"Name": "left"
+		},
+		{
+			"Id": "butterfly_right",
+			"Name": "butterfly_right"
+		},
+		{
+			"Id": "butterfly_left",
+			"Name": "butterfly_left"
+		},
+		{
+			"Id": "dress_R",
+			"Name": "dress_R"
+		},
+		{
+			"Id": "top2",
+			"Name": "top"
+		},
+		{
+			"Id": "shoes_right",
+			"Name": "shoes_right"
+		},
+		{
+			"Id": "shoes_left",
+			"Name": "shoes_left"
+		},
+		{
+			"Id": "shoes_back_right",
+			"Name": "shoes_back_right"
+		},
+		{
+			"Id": "shoes_back_left",
+			"Name": "shoes_back_left"
+		},
+		{
+			"Id": "neck",
+			"Name": "neck"
+		},
+		{
+			"Id": "right3",
+			"Name": "right"
+		},
+		{
+			"Id": "left4",
+			"Name": "left"
+		},
+		{
+			"Id": "right",
+			"Name": "right"
+		},
+		{
+			"Id": "left2",
+			"Name": "left"
+		},
+		{
+			"Id": "right4",
+			"Name": "right"
+		},
+		{
+			"Id": "left5",
+			"Name": "left"
+		},
+		{
+			"Id": "ponytail_R37",
+			"Name": "ponytail_R"
+		},
+		{
+			"Id": "Part180",
+			"Name": "图层 709R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R1_Skinning3",
+			"Name": "ponytail_R1(Skinning)"
+		},
+		{
+			"Id": "Part181",
+			"Name": "ponytail_R1(Rotation)"
+		},
+		{
+			"Id": "Part182",
+			"Name": "图层 713R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R3_Skinning3",
+			"Name": "ponytail_R3(Skinning)"
+		},
+		{
+			"Id": "Part183",
+			"Name": "ponytail_R3(Rotation)"
+		},
+		{
+			"Id": "ArtMesh329_Skinning3",
+			"Name": "图层 708 拷贝R(Skinning)"
+		},
+		{
+			"Id": "Part184",
+			"Name": "图层 708 拷贝R(Rotation)"
+		},
+		{
+			"Id": "Part185",
+			"Name": "Parts304"
+		},
+		{
+			"Id": "ArtMesh333_Skinning3",
+			"Name": "图层 691R(Skinning)"
+		},
+		{
+			"Id": "Part186",
+			"Name": "图层 691R(Rotation)"
+		},
+		{
+			"Id": "Part17",
+			"Name": "图层 709R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R1_Skinning",
+			"Name": "ponytail_R1(Skinning)"
+		},
+		{
+			"Id": "Part22",
+			"Name": "ponytail_R1(Rotation)"
+		},
+		{
+			"Id": "Part23",
+			"Name": "图层 713R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R3_Skinning",
+			"Name": "ponytail_R3(Skinning)"
+		},
+		{
+			"Id": "Part24",
+			"Name": "ponytail_R3(Rotation)"
+		},
+		{
+			"Id": "ArtMesh329_Skinning",
+			"Name": "图层 708 拷贝R(Skinning)"
+		},
+		{
+			"Id": "Part25",
+			"Name": "图层 708 拷贝R(Rotation)"
+		},
+		{
+			"Id": "Part172",
+			"Name": "Parts304"
+		},
+		{
+			"Id": "ArtMesh333_Skinning",
+			"Name": "图层 691R(Skinning)"
+		},
+		{
+			"Id": "Part27",
+			"Name": "图层 691R(Rotation)"
+		},
+		{
+			"Id": "bangs_right2",
+			"Name": "bangs_left"
+		},
+		{
+			"Id": "Part166",
+			"Name": "下睫毛"
+		},
+		{
+			"Id": "Part13",
+			"Name": "下睫毛"
+		},
+		{
+			"Id": "butterfly_pocket_R",
+			"Name": "butterfly_pocket_R"
+		},
+		{
+			"Id": "butterfly_pocket_L",
+			"Name": "butterfly_pocket_L"
+		},
+		{
+			"Id": "top_R",
+			"Name": "top_R"
+		},
+		{
+			"Id": "butterfly_large_R",
+			"Name": "butterfly_large_R"
+		},
+		{
+			"Id": "shoes_RR",
+			"Name": "shoes_RR"
+		},
+		{
+			"Id": "butterfly_large_left",
+			"Name": "butterfly_large_left"
+		},
+		{
+			"Id": "shoes_L",
+			"Name": "shoes_L"
+		},
+		{
+			"Id": "hand_right",
+			"Name": "hand_right"
+		},
+		{
+			"Id": "sleeve_back_right2",
+			"Name": "sleeve_back_right"
+		},
+		{
+			"Id": "hand_left",
+			"Name": "hand_left"
+		},
+		{
+			"Id": "Part173",
+			"Name": "图层 709R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R1_Skinning2",
+			"Name": "ponytail_R1(Skinning)"
+		},
+		{
+			"Id": "Part174",
+			"Name": "ponytail_R1(Rotation)"
+		},
+		{
+			"Id": "Part175",
+			"Name": "图层 713R(Rotation)"
+		},
+		{
+			"Id": "ponytail_R3_Skinning2",
+			"Name": "ponytail_R3(Skinning)"
+		},
+		{
+			"Id": "Part176",
+			"Name": "ponytail_R3(Rotation)"
+		},
+		{
+			"Id": "ArtMesh329_Skinning2",
+			"Name": "图层 708 拷贝R(Skinning)"
+		},
+		{
+			"Id": "Part177",
+			"Name": "图层 708 拷贝R(Rotation)"
+		},
+		{
+			"Id": "Part178",
+			"Name": "Parts304"
+		},
+		{
+			"Id": "ArtMesh333_Skinning2",
+			"Name": "图层 691R(Skinning)"
+		},
+		{
+			"Id": "Part179",
+			"Name": "图层 691R(Rotation)"
+		},
+		{
+			"Id": "Part167",
+			"Name": "眼珠"
+		},
+		{
+			"Id": "Part168",
+			"Name": "眼白"
+		},
+		{
+			"Id": "Part14",
+			"Name": "眼珠"
+		},
+		{
+			"Id": "Part15",
+			"Name": "眼白"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		]
+	]
+}

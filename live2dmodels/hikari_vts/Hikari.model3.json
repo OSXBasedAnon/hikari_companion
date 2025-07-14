@@ -1,0 +1,35 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Hikari.moc3",
+		"Textures": [
+			"Hikari.2048/texture_00.png",
+			"Hikari.2048/texture_01.png",
+			"Hikari.2048/texture_02.png",
+			"Hikari.2048/texture_03.png",
+			"Hikari.2048/texture_04.png",
+			"Hikari.2048/texture_05.png",
+			"Hikari.2048/texture_06.png",
+			"Hikari.2048/texture_07.png",
+			"Hikari.2048/texture_08.png",
+			"Hikari.2048/texture_09.png"
+		],
+		"Physics": "Hikari.physics3.json",
+		"DisplayInfo": "Hikari.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
